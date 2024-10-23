@@ -126,6 +126,8 @@ Musicer/
 └── app.py
 ```
 
+![1729686987253](image/README/1729686987253.png)
+
 ---
 
 ## 🧪 Running Tests
