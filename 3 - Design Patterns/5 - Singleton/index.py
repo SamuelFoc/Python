@@ -1,7 +1,7 @@
 class Logger:
     _instance = None  # Class variable to hold the single instance
 
-    def __new__(cls):
+    def __new__(cls):   # cls refers to the Logger class itself
         if cls._instance is None:
             cls._instance = super(Logger, cls).__new__(cls)  # Create a new instance
             cls._instance.log_file = "application.log"  # Initialize the log file
